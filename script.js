@@ -31,11 +31,11 @@ function updateClock() {
         }
     }
     else{
-        if(hours>=0 && hours<4){
+        if(hours>=12 && hours<16){
             document.body.style.backgroundImage = "url('https://static.vecteezy.com/system/resources/previews/029/096/687/large_2x/beautiful-hills-mountain-and-river-view-with-snowfall-lake-and-winter-sunny-day-background-ai-generated-free-photo.jpg')";
             document.getElementById('theme').innerText = "Theme: Day";
         }
-        else if(hours>=4 && hours<=8){
+        else if(hours>=16 && hours<=20){
             document.body.style.backgroundImage = "url('https://c.wallhere.com/photos/12/d8/lake_sunset_mountains_forest_sky_water_snow_reflection-107864.jpg!d')";
             document.getElementById('theme').innerText = "Theme: Evening";
         }
